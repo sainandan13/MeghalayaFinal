@@ -2,6 +2,8 @@ import axios from "axios";
 
 const API_URL = "http://localhost:5000/api/patients";
 
+// const API_URL = 'http://54.169.168.155:5000/api/patients';
+
 // Get all patients
 export const getPatients = async () => {
   return await axios.get(API_URL);
